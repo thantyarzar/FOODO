@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Ewert&family=Saira+Stencil+One&family=Shippori+Antique+B1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --bg-primary:#496e74; */
+  --bg-primary: #c17402;
+  --second-bg-color: #ddd8de;
+}
+#nav {
+  /*  background-color: #e0bf88 !important; */
+  background-color: #ffffff !important;
+  color: #6b8e39 !important;
+}
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgb(179, 178, 178),
+    #ebeaea,
+    rgb(175, 174, 174)
+  );
+}
+.navbar-nav .nav-link {
+  color: #618929;
+}
+.navbar-nav .nav-link.active {
+  color: rgb(40, 119, 22);
+}
+.box {
+  border: 1px solid gainsboro;
+  /* box-shadow: 1px 1px 7px #050505; */
+}
+.box:hover {
+  border-color: rgb(241, 247, 239);
+  box-shadow: 1px 1px 7px #050505;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+p {
+  color: rgb(38, 96, 38);
+  font-family: "Ewert", serif;
+}
+.food {
+  color: rgb(40, 119, 22);
+  font-family: "Saira Stencil One", sans-serif !important;
+}
+h4 {
+  font-family: "Shippori Antique B1", sans-serif;
+}
+
+#searchBar {
+  background-color: #f2efef !important;
+  /*   background-color: #e0bf88 !important; */
+}
+.seemore-btn {
+  background-color: #aa8e43;
+  color: white;
+}
+.seemore-btn:hover {
+  padding: 5px;
+  background-color: var(--bg-primary);
+  color: white;
+}
+#showmore {
+  background-color: #aa8e43;
+  color: black;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 1rem;
+  width: 10%;
+}
+
+.seeMore1 {
+  display: none;
+}
+.seeMore2 {
+  display: none;
+}
+.catcard {
+  background-color: #d3c499;
+}
+
+#spCard {
+  background-color: #d3c499;
+}
+#spCard img {
+  height: 14rem;
+}
+#footer,
+#footer .nav-link {
+  color: rgb(37, 134, 15);
+}
+.sidebar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: none;
+}
+.pricing {
+  position: relative;
+}
+.pricing .numOfbought {
+  position: relative;
+  top: -35px;
+  right: -35px;
+  color: red;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 0px 5px;
+}
+
+@media (max-width: 500px) {
+  /* .catcard{
+        width: 100% !important;
+    } */
+  .spcard {
+    width: 100px !important;
+    /* font-size: 10px; */
+  }
+  /* #spCard h3{
+        font-size: 8px;
+        font-weight: bold;
+    }
+    #spCard img{
+        height: 80px;
+    } */
+  .sidebar {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .boughtItem h4 {
+    font-size: 10px;
+  }
+  .pricing .numOfbought {
+    position: relative;
+    top: -5px;
+    right: 0px;
+    color: red;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 0px 5px;
+  }
+}
+@media (max-width: 769px) {
+  .spcard {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Saira+Stencil+One&display=swap');
+/* .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Onest", sans-serif;
+}
+body{
+  background: linear-gradient(to bottom right, rgb(179, 178, 178), #ffffff, rgb(175, 174, 174));
+}
+#nav{
+    /*  background-color: #e0bf88 !important; */
+    background-color: #ffffff !important;
+    color: #6B8E39 !important;
+ }
+.navbar-nav .nav-link{
+    color: #618929;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(40, 119, 22);
+}
+.card:hover{
+  border-color: rgb(247, 239, 239);
+  box-shadow: 1px 1px 7px #050505;
+}
+h5{
+  color: rgb(20, 132, 38);
+  text-shadow: 2px -2px 2px rgba(255, 255, 255, 0.5);
+  font-family: 'Saira Stencil One', sans-serif;
+  font-size: 20px;
+}
+p{
+  color: #252424;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+}
+.btn{
+  background: linear-gradient(#619617,#78b522);
+  color: #f5eeee;
+  transition: 0.8s ease;
+}
+.btn:hover {
+  background: linear-gradient(#639321,#679921);
+    color: #ffffff;
+}
+  #footer,
+#footer .nav-link {
+  color: rgb(37, 134, 15);
+}
+@media (max-width: 500px) {
+  .catcard {
+    width: 100% !important;
+  }
+}
+@media (max-width: 769px) {
+  .catcard {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+}
